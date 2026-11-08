@@ -12,7 +12,7 @@ A RimWorld patch for [Adaptive Storage Framework](https://steamcommunity.com/sha
 
 ## Installation
 
-Subscribe on the Steam Workshop, or copy `About`, `Assemblies`, `Languages` and `LICENSE` into a folder under `RimWorld/Mods`. Requires [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077) and Adaptive Storage Framework, plus a mod that adds ASF storage buildings. Load it after Harmony and ASF. Supports RimWorld 1.7.
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3836261869), or copy `About`, `Assemblies`, `Languages` and `LICENSE` into a folder under `RimWorld/Mods`. Requires [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077) and Adaptive Storage Framework, plus a mod that adds ASF storage buildings. Load it after Harmony and ASF. Supports RimWorld 1.7.
 
 ## Configuration
 

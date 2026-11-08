@@ -21,11 +21,11 @@
     <li>brrainz.harmony</li>
     <li>adaptive.storage.framework</li>
   </loadAfter>
-  <description>Items stored in Adaptive Storage Framework buildings count for less colony wealth.
+  <description>A patch for Adaptive Storage Framework (ASF). Items stored in ASF storage buildings count for less colony wealth.
 
 By default, items physically in any ASF storage building count at 50% toward colony item wealth. Change the percentage (0-100%) in Mod options. Market value, trade prices and the storage building's own wealth are unchanged.
 
-The change applies on the game's next wealth recount. Items carried by pawns, items in vanilla storage and contents of packed storage count normally.
+The change applies at the game's next wealth recount. Items in stockpile zones or in storage that doesn't use ASF, items carried by pawns and contents of packed storage count normally.
 
 Requires Harmony and Adaptive Storage Framework.</description>
 </ModMetaData>
