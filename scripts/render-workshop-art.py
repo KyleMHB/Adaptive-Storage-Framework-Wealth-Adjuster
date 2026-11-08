@@ -186,8 +186,9 @@ d = ImageDraw.Draw(g)
 text(d, 960, 90, 'Stored goods count for less wealth', 84, CREAM, width=1700)
 top, bottom = 235, 675
 floor(g, (0, top, 1920, bottom), 3.0)
-stripe(g, top, 12)
-stripe(g, bottom - 12, 12)
+# Plain gold dividers, matching the thumbnail's band trim.
+d.rectangle((0, top, 1920, top + 8), fill=GOLD)
+d.rectangle((0, bottom - 8, 1920, bottom), fill=GOLD)
 mid = (top + bottom) // 2 + 6
 # Same goods both sides: Steel and Gold, loose on the floor, then on a vanilla shelf.
 paste(g, steel, 380, mid, 200)

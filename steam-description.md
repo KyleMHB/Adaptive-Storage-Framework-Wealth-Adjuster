@@ -2,6 +2,8 @@ Your stockpiled goods count for less colony wealth while they sit in Adaptive St
 
 Every stack in your warehouse adds to colony wealth, and wealth feeds the storyteller. With this mod, items in ASF buildings count at a percentage you choose, 50% by default. Their market value stays the same, so you still trade them at full price.
 
+It's one more reason to build a proper storage room with shelves instead of leaving everything in a stockpile zone.
+
 [b]Mod version:[/b] 1.0.0
 [b]Supported game version:[/b] RimWorld 1.7
 
