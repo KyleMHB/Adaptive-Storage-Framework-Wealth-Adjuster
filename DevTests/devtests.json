@@ -1,0 +1,11 @@
+{
+  "name": "Adaptive Storage Framework Wealth Adjuster",
+  "argPrefix": "sfwa",
+  "modDir": "E:/Steam/steamapps/common/RimWorld/Mods/Adaptive Storage Framework Wealth Adjuster",
+  "productionDll": "Assemblies/StorageFrameworkWealthAdjuster.dll",
+  "devBuild": "work/devtests/StorageFrameworkWealthAdjuster.DevTests.dll",
+  "devProject": "DevTests/StorageFrameworkWealthAdjuster.DevTests.csproj",
+  "evidenceFolder": "StorageFrameworkWealthAdjusterTests",
+  "runtimeFolders": ["About", "Assemblies", "Languages"],
+  "runtimeFiles": []
+}

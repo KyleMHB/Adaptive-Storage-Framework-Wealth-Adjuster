@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Adaptive Storage Framework Wealth Adjuster</name>
+  <author>KyleMHB</author>
+  <packageId>kylemhb.storageframeworkwealthadjuster</packageId>
+  <supportedVersions><li>1.7</li></supportedVersions>
+  <modVersion>1.0.0</modVersion>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>adaptive.storage.framework</packageId>
+      <displayName>Adaptive Storage Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3033901359</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>adaptive.storage.framework</li>
+  </loadAfter>
+  <description>Items stored in Adaptive Storage Framework buildings count for less colony wealth.
+
+By default, items physically in any ASF storage building count at 50% toward colony item wealth. Change the percentage (0-100%) in Mod options. Market value, trade prices and the storage building's own wealth are unchanged.
+
+The change applies on the game's next wealth recount. Items carried by pawns, items in vanilla storage and contents of packed storage count normally.
+
+Requires Harmony and Adaptive Storage Framework.</description>
+</ModMetaData>

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <LangVersion>12</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>StorageFrameworkWealthAdjuster</AssemblyName>
+    <RootNamespace>StorageFrameworkWealthAdjuster</RootNamespace>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NoStdLib>true</NoStdLib>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <RimWorldPath Condition="'$(RimWorldPath)' == ''">E:\Steam\steamapps\common\RimWorld</RimWorldPath>
+    <HarmonyPath Condition="'$(HarmonyPath)' == ''">E:\Steam\steamapps\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HarmonyPath>
+    <AsfPath Condition="'$(AsfPath)' == ''">E:\Steam\steamapps\workshop\content\294100\3033901359\1.6\Assemblies\AdaptiveStorageFramework.dll</AsfPath>
+    <OutputPath>..\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <DebugType>none</DebugType>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(RimWorldPath)\System.*.dll;$(RimWorldPath)\mscorlib.dll;$(RimWorldPath)\netstandard.dll;$(RimWorldPath)\Assembly-CSharp.dll;$(RimWorldPath)\UnityStubs.dll;$(RimWorldPath)\Waylith.UnityCompat.dll;$(RimWorldPath)\Waylith.dll" Exclude="$(RimWorldPath)\System.IO.Compression.Native.dll">
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyPath)</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AdaptiveStorageFramework">
+      <HintPath>$(AsfPath)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+# Local editors and user settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local work, previews and publication drafts
+/work/
+/artifacts/
+*.log
+*.tmp
+*.bak
+*.zip
+
+# Generated build output
+**/bin/
+**/obj/
+/Assemblies/
+
+# Python tooling
+__pycache__/
+*.pyc

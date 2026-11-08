@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SFWA_StoredPercentLabel>Stored item wealth counted: {0}%</SFWA_StoredPercentLabel>
+  <SFWA_StoredPercentHelp>Items physically in ASF storage count at this percentage toward colony item wealth. Market value and trade prices are unchanged. Changes apply on the next wealth recount.</SFWA_StoredPercentHelp>
+</LanguageData>

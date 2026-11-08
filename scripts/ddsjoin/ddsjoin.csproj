@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Developer art tool, never deployed: rejoins RimWorld 1.7 .dds.split textures via the game's own Waylith.DdsFile.TryJoin. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>RimWorld</AssemblyName>
+    <UseAppHost>false</UseAppHost>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseIntermediateOutputPath>..\..\work\ddsjoin-obj\</BaseIntermediateOutputPath>
+    <OutputPath>..\..\work\ddsjoin\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+</Project>

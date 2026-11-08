@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>StorageFrameworkWealthAdjuster.DevTests</AssemblyName>
+    <RootNamespace>StorageFrameworkWealthAdjuster.DevTests</RootNamespace>
+    <OutputPath>..\work\devtests\</OutputPath>
+    <DevTestsProductionDll>..\Assemblies\StorageFrameworkWealthAdjuster.dll</DevTestsProductionDll>
+    <AsfPath Condition="'$(AsfPath)' == ''">E:\Steam\steamapps\workshop\content\294100\3033901359\1.6\Assemblies\AdaptiveStorageFramework.dll</AsfPath>
+    <RimWorldDevTestsProps Condition="'$(RimWorldDevTestsProps)' == ''">..\..\RimWorldDevTests\RimWorldDevTests.props</RimWorldDevTestsProps>
+  </PropertyGroup>
+  <Import Project="$(RimWorldDevTestsProps)" />
+  <ItemGroup>
+    <Reference Include="AdaptiveStorageFramework">
+      <HintPath>$(AsfPath)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
